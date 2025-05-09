@@ -56,7 +56,7 @@ exports.sendEmail = async (req, res) => {
   const { name, email, subject, message } = req.body;
   console.log(name, email);
   mailerService({
-    to: 'contact@perfectforextrade.com',
+    to: 'isaiashd.dev@gmail.com',
     from: email,
     subject: subject,
     template: `<h3>New email from <${name}></h3>
